@@ -2,7 +2,7 @@ server:
   port: 7000
 spring:
   cloud: 
-   gateway:
+   zuul:
       routes:
       - id: serv-vuelos
           #lb:// cuando se va a acceder a través de Eureka
