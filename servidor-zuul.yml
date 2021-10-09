@@ -11,4 +11,8 @@ zuul:
         serviceId: servicio-hoteles
       serv-reservas: # Service to create as sample
         path: /sreservas/** #path that will be intercepted
-        serviceId: servicio-reservas   
+        serviceId: servicio-reservas
+  eureka:                  
+   client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
