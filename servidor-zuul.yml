@@ -16,4 +16,4 @@ zuul:
    client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka
-      registerwitheureka:false
+      registerwitheureka: false
