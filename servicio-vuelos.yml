@@ -12,7 +12,8 @@ spring:
 server: 
   port: 9000
 # Config de el servidor  
-eureka: 
+eureka:
+config:
   client:    
     serviceUrl:
       # Direccion a la que se conecta el microservicio con eureka
